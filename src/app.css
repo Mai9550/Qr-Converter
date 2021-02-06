@@ -1,0 +1,61 @@
+.html,
+body,
+.root {
+  height: 100%;
+}
+
+/* Avoid position all the elements on a page using absolute positioning it doesn't allow for the elements to be of flexible sizes and also wont work on different screen sizes look into flexbox and css grid */
+
+.catButton {
+  /* position: fixed;
+  left: 500px; */
+  
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 50px 100px 100px ;
+  cursor: pointer;
+}
+.QRButton {
+  /* position: fixed;
+  top: 100px;
+  left: 500px; */
+  /* position: center; */
+
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 50px 100px 100px ;
+  cursor: pointer;
+}
+/* .cat{
+  position: absolute;
+  top:   30px;
+
+}
+.QR{
+  position: absolute;
+  top:   100px;
+  
+}
+.first{
+  position: relative;
+
+}
+.second{
+  position: relative;
+
+}
+.Form{
+  position: fixed;
+  
+top: 200px;
+} */
